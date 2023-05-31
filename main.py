@@ -14,7 +14,7 @@ def count_occurrences(lines):
 
 def print_links(links):
     if len(links) > 0:
-        print("Links where the keyword appears:")
+        print("Link where the keyword appears:")
         for link in links:
             print(link)
     else:
